@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    /* border: 1px solid purple; */
+    display: flex;
+    height:6vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #131516;
+
+}
+.header_titulo{
+    font-family: 'Mukta Vaani', sans-serif;
+    color:#d8d4cf;
+    font-size: 80px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #131516;
+    gap: 50px;
+
+}
+.card{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    height: 800px;
+    border-radius: 4px;
+    
+}
+
+
+.imagen{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 73%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.imagen_photo{
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 900px;
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    gap: 10px;
+    font-family: 'Mukta Vaani', sans-serif;
+
+}
+
+.texto_titulo{
+
+    color: #d8d4cf;
+    font-family: 'Mukta Vaani', sans-serif;
+
+}
+.texto_info{
+
+    color: whitesmoke;
+    font-family: 'Mukta Vaani', sans-serif;
+
+}
+
+.boton{
+    border: 2px solid #d8d4cf ;
+    border-radius: 4px;
+    padding: 14px;
+    font-size: 18px;
+    width: 25%;
+    height: 8%;
+    background-color: transparent;
+}
+.enlace{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Mukta Vaani', sans-serif;
+
+}
