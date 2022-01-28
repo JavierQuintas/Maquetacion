@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 800px;
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2021/09/Web-portada-3.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    flex-direction: row ;
+    /* border: 1px solid red; */
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px;
+    /* background-color: rgb(0, 0, 255); */
+}
+
+.titulo_header{
+    display: flex;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: bold;
+    color: white;
+    /* margin-left: ; */
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    
+    /* border: 1px solid red; */
+}
+
+.enlaces{
+    
+    display: flex;
+    color : white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Mukta Vaani', sans-serif;
+}
