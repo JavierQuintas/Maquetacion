@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="viajes.css">
+    <script src="viajes.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="header_titulo">Ofertas Viajes</h1>
+
+        </header>
+
+        <article class="descripcion">
+            <h2 class="texto_descripcion">En esta web de viajes te ofrecemos las mejores ofertas de viajes en avion a los siguientes destinos</h2>
+        </article>
+        
+        <section class="container_destinos">
+
+            <article class="card">
+
+
+                <div class="card_titulo">
+                    <h2 class="texto_titulo">Canarias</h2>
+                </div>
+                <figure class="imagen">
+                    <img class="imagen_photo" src="https://as1.ftcdn.net/v2/jpg/01/95/40/00/500_F_195400094_i0rqv3AnfcNa8RcEAxU6dz0VxzwZdh9B.jpg" alt="imagen de al tarjeta">
+                </figure>
+                <div class="texto">
+                    <p class="texto_info">Aquí encontrarás variedad de fotografías de retratos.</p>
+                </div>
+                <div class="precio">200€</div>
+                    
+            </article>
+
+            <article class="card">
+
+                <div class="card_titulo">
+                    <h2 class="texto_titulo">Oslo</h2>
+                </div>
+                <figure class="imagen">
+                    <img class="imagen_photo" src="https://i.pinimg.com/originals/da/88/9e/da889ed5f2f0a350a7ea41a5ce42edbb.jpg" alt="imagen de al tarjeta">
+                </figure>
+                <div class="texto">
+                    <p class="texto_info">Aquí encontrarás variedad de fotografías de retratos.</p>
+                </div>
+                <div class="precio">270€</div>
+            </article>
+
+            <article class="card">
+
+                <div class="card_titulo">
+                    <h2 class="texto_titulo">Tokio</h2>
+                </div>
+                <figure class="imagen">
+                    <img class="imagen_photo" src="https://thumbs.dreamstime.com/b/vista-a%C3%A9rea-vertical-de-la-ciudad-tokio-con-famosa-torre-roja-bajo-un-cielo-azul-171663244.jpg" alt="imagen de al tarjeta">
+                </figure>
+                <div class="texto">
+                    <p class="texto_info">Aquí encontrarás variedad de fotografías de retratos.</p>
+                </div>
+                <div class="precio">350€</div>
+            </article>
+
+            <article class="card">
+
+                <div class="card_titulo">
+                    <h2 class="texto_titulo">Argentina</h2>
+                </div>
+                <figure class="imagen">
+                    <img class="imagen_photo" src="https://www.freejpg.com.ar/asset/400/89/8959/F100027237.jpg" alt="imagen de al tarjeta">
+                </figure>
+                <div class="texto">
+                    <p class="texto_info">Aquí encontrarás variedad de fotografías de retratos.</p>
+                </div>
+                <div class="precio">190€</div>
+            </article>
+
+            
+
+        </section>
+        <article class="formulario">
+
+            <form class="contenido_formulario">
+                <input class="nombre_formulario" id="nombre" type="text" placeholder="Nombre">
+                <input class="origen_formulario" id="origen" type="text" placeholder="Origen">
+                <input class="destino_formulario" id="destino" type="text" placeholder="Destino">
+                <input class="personas_formulario" id="personas" type="number" placeholder="Número de personas">
+                <input class="fecha_formulario" id="fecha" type="date" placeholder="Fecha">
+                <input class="info_formulario" type="button" value="Soliticar información" onclick="infoForm()">
+                <input class="filtrar_formulario" type="button" value="Filtrar" onclick="filtrarForm()">
+            </form>
+
+        </article>
+    </main>
+    
+</body>
+</html>
