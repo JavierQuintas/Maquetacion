@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <title>kike.con</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        .badge-notify{
+          background:red;
+          position:relative;
+          top: -20px;
+          right: 10px;
+        }
+        .my-cart-icon-affix {
+          position: fixed;
+          z-index: 999;
+        } 
+        </style>
+
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light" style="justify-content: space-between; flex-direction: column;">
+    
+        <div class="container-fluid">
+                <img src="./img/nike_logo.png" alt="fotico" width="337px" height="120px" class="d-inline-block align-text-top">
+
+                    
+                <div style="float: right; cursor: pointer;">
+                    <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+                </div>     
+        </div>
+
+        
+    </nav>
+   
+        <div class="container mt-6">
+            <div class="row" style="gap: 10px; flex-wrap: wrap;">
+
+                <div class="card" style="width: 18rem; border: none;">
+                   
+                    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9f68b56b-46c0-45b9-93a7-d865df798b05/blazer-mid-77-vintage-zapatillas-pKBwMW.png" class="card-img-top" alt="..."  >
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Blazer Mid '77 Vintage</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary  my-cart-btn" data-id="1" data-name="Nike Blazer MId '77 Vintage" data-summary="summary 1" data-price="120" data-quantity="1" data-image="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9f68b56b-46c0-45b9-93a7-d865df798b05/blazer-mid-77-vintage-zapatillas-pKBwMW.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4b484be0-a520-4c8f-9fb0-5f525c674c6a/air-force-1-07-zapatillas-wt3DLX.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Force 1 '07</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="2" data-name="Air Force 1 '07" data-summary="summary 2" data-price="120" data-quantity="1" data-image="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4b484be0-a520-4c8f-9fb0-5f525c674c6a/air-force-1-07-zapatillas-wt3DLX.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="https://www.footslisting.com/media/catalog/product/cache/1/image/570x735/9df78eab33525d08d6e5fb8d27136e95/l/e/len543.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Force 1 DC1429-001</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="3" data-name="ir Force 1 DC1429-001" data-summary="summary 3" data-price="120" data-quantity="1" data-image="https://www.footslisting.com/media/catalog/product/cache/1/image/570x735/9df78eab33525d08d6e5fb8d27136e95/l/e/len543.jpg">Añadir al carrito</button>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7f2528f8-eca7-48d5-8ce1-ade41e06381b/blazer-mid-77-zapatillas-nino-a-GfpJQs.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="product-name">Nike Blazer Mid '77 </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="4" data-name="Nike Blazer Mid '77" data-summary="summary 1" data-price="120" data-quantity="1" data-image="images/img_1.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9e3687f6-a793-405c-9d3e-8d74a957664a/dunk-high-up-zapatillas-nn2MDT.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Dunk High Up</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="5" data-name="Nike Dunk High Up" data-summary="summary 1" data-price="120" data-quantity="1" data-image="images/img_1.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;border: none;">
+                    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e0add4bc-0b2d-4043-a86b-a592e9b700e6/air-max-plus-zapatillas-nino-a-v46dCJ.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Air Max Plus</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="6" data-name="Nike Air Max Plus" data-summary="summary 1" data-price="120" data-quantity="1" data-image="images/img_1.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;border: none;">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/e0083865-8eb4-47d4-8404-e2dd9e767513/fecha-de-lanzamiento-de-las-air-jordan%C2%A05-racer-blue-ct4838-004.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Air Jordan 5 Racer Blue</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="7" data-name="Air Jordan 5 Racer Blue" data-summary="summary 1" data-price="120" data-quantity="1" data-image="images/img_1.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;border: none;">
+                    <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9fb89dfa-c161-4695-b52a-2c94d32e1ee5/air-max-sc-zapatillas-1PG1GJ.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Air Max SC</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h1 class="card-price">120 €</h1>
+                        <button class="btn btn-primary my-cart-btn" data-id="8" data-name="Nike Air Max SC" data-summary="summary 1" data-price="120" data-quantity="1" data-image="images/img_1.png">Añadir al carrito</button>
+                    </div>
+                </div>
+
+
+            
+                <section class="container">
+                <div id="carrito" class="row p-3 gap-3 justify-content-center text-center" style="display: none;">
+                    <h3>Contenido carrito</h3>
+                    <hr>
+                </div>
+
+                <div id="resumen" class="row p-3 gap-3 justify-content-center text-center" style="display: none;">
+                    <h3>Pedido</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="row col-6">
+                            <button onclick="pagar()" type="button" class="btn btn-success mt-1">Pagar</button>
+                            <button onclick="vaciar()" type="button" class="btn btn-success mt-1">Vaciar carrito</button>
+                            <button onclick="toggleCarrito()" type="button" class="btn btn-success mt-1">Seguir comprando</button>
+                        </div>
+                        <di class="col-6">
+                            <p><b>Precio Total</b></p>
+                            <p id="total"></p>
+                        </di>
+                    </div>
+                </div>
+                <hr>
+                </section>
+            </div>
+        </div>
+
+        <script>
+           
+  $(function () {
+
+    var goToCartIcon = function($boton_carrito){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $Añadir.data("card-img-top") + '"/>').css({"position": "fixed", "z-index": "999"});
+      $addTocartBtn.prepend($card-img-top);
+      var position = $cartIcon.position();
+    //   $image.animate({
+    //     top: position.top,
+    //     left: position.left
+    //   }, 500 , "linear", function() {
+    //     $image.remove();
+    //   });
+    }
+
+    $('.my-cart-btn').myCart({
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
+      affixCartIcon: true,
+      showCheckoutModal: true,
+      clickOnAddToCart: function($addTocart){
+        goToCartIcon($addTocart);
+      },
+    //   clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+    //     console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+    //   },
+    //   checkoutCart: function(products, totalPrice, totalQuantity) {
+    //     console.log("checking out", products, totalPrice, totalQuantity);
+    //   },
+     
+    });
+
+  });
+  </script>
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <script type='text/javascript' src="js/jquery.mycart/jquery.mycart.js"></script>
+            <script type="text/javascript"> -->
+</body>
+</html>
+</body>
+</html>
